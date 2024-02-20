@@ -14,6 +14,11 @@ public class Calculator
 
         
     }
+    public static int sub(int num1,int num2)
+    {
+        int diff=num1-num2;
+        return diff;
+    }
 }
 
 

@@ -13,11 +13,16 @@ public class Calculator
       b=s.nextInt();
 
         
-    }
+   
+    public static int sub(int num1,int num2)
+    {
+        int diff=num1-num2;
+        return diff;
     public static int add(int num1,int num2)
     {
         int sum=num1+num2;
         return sum;
+
     }
 }
 
